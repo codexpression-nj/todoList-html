@@ -1,0 +1,36 @@
+body {
+  /* background: #353f5b; */
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  max-width: 400px;
+}
+
+.icon {
+  padding: 10px;
+  left: 0;
+}
+.input-field {
+  text-align: center;
+}
+
+input[type="text"],
+input[type="text"]:focus {
+  color: #fff;
+  border: none;
+  background: rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+}
+.todos li {
+  background: #423a6f;
+}
+.delete {
+  cursor: pointer;
+}
+
+
+.filtered{
+  display: none !important;
+}
